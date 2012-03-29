@@ -1,1 +1,17 @@
-Hallo Welt
+Git Benutzung:
+1. installieren, konfigurieren (RTFM github page)
+2. fork ainoedhofer/Baustein
+3. clone <user>/Baustein (zu Hause)
+4. ändern von Dateien
+5. github pull
+6. merge/commit
+7. pull request (RTFM github page)
+8. warten auf eine Antwort
+
+Programmierung:
+1. style.css nicht benutzen!
+2. style-common.css benutzen, wenn etwas für alle Module gilt
+3. style-<Modul>.css (z.B. style-events.css) schreiben
+4. andere Dateien: <Modul>-main.html, <Modul>-blaaa.html, ...
+5. Beispiele siehe Gästebuch/Termine
+6. UTF-8, Tabs (4), keine Spaces
