@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html >
+	<head>
+		<meta charset="utf-8" />
+		<title>Baustein - Gästebuch</title>
+		<link href="style-common.css" rel="stylesheet" />
+		<link href="style-guestbook.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header id="header">
+			<!-- titlebar -->
+			<div class="title-bar">
+				<div class="logo">
+					<span class="logo1">Bau</span>
+					<span class="logo2">Stein</span>
+					<span class="logo3">Version 3.0</span>
+				</div>
+				<span class="username">angemeldet als: htoijala</span>
+			</div>
+			<!-- navigation -->
+			<nav class="navigation">
+				<h1>Gästebuchbeitrag ändern</h1>
+				<br />
+				<a href="index.html">Startseite</a>
+				<a href="guestbook-main.html">Gästebuch</a>
+			</nav>
+		</header>
+		<div id="content">
+			<div class="guestbook-edit-info">
+				<div class="info-item">
+					<div>Autor:</div>
+					<div>AAAAAAAAAAAAA</div>
+				</div>
+				<div class="info-item">
+					<div>E-Mail:</div>
+					<div>fakeemail@fake.email</div>
+				</div>
+				<div class="info-item">
+					<div>Geschrieben am:</div>
+					<div>31.1.2012</div>
+				</div>
+				<div class="info-item">
+					<div>
+						<a href="">Alle Versionen</a>
+					</div>
+				</div>
+			</div>
+			<form name="guestbook-edit" action="#" method="POST">
+				<div class="form-input">
+					<div>
+						<label for="contribution">Gästebuchbeitrag</label>
+					</div>
+					<div>
+						<textarea name="contribution" id="contribution" rows="15" cols="50">Beitrag</textarea>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<label for="comment">Kommentar</label>
+					</div>
+					<div>
+						<textarea name="comment" id="comment" rows="15" cols="50">Kommentar</textarea>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<label for="unlock">Freischalten</label>
+					</div>
+					<div>
+						<input type="checkbox" name="unlock" id="unlock"/>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<input class="form-end-button" type="reset" name="reset" value="Zurücksetzen" />
+					</div>
+					<div>
+						<input class="form-end-button" type="submit" name="save" value="Speichern" />
+					</div>
+				</div>
+			</form>
+		</div>
+		<footer id="footer">
+			&copy; Baustein AG 2012
+		</footer>
+	</body>
+</html>

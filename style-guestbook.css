@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*---------------------*/
+/* guestbook main page */
+/*---------------------*/
+
+.guestbook-content
+{
+	width: 100%;
+	display: table;
+}
+
+/* ---- unlocked contributions ---- */
+
+#guestbook-unlocked
+{
+	width: 45%;
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	display: table-column;
+}
+
+#guestbook-unlocked h2
+{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.guestbook-unlocked-contribution
+{
+	width: 100%;
+	display: table-row;
+	border: 5px solid black;
+}
+
+.guestbook-unlocked-contribution-header
+{
+	width: 100%;
+	background-color: #AAAAAA;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.guestbook-unlocked-contribution-body
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	display: table;
+	border-bottom: 1px solid black;
+	min-height: 50px;
+}
+
+.guestbook-unlocked-contribution-body-actions
+{
+	width: 7em;
+	display: table-cell;
+	background-color: #AAAAAA;
+	text-align: center;
+}
+
+.guestbook-unlocked-contribution-body-actions a
+{
+	color: blue;
+}
+
+.guestbook-unlocked-contribution-body-text
+{
+	background-color: #FFFFFF;
+	display: table-cell;
+	padding-left: 10px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.guestbook-unlocked-spacer
+{
+	height: 20px;
+	display: table-row;
+}
+
+/* ---- locked contributions ---- */
+
+#guestbook-locked
+{
+	width: 45%;
+	float: right;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: table-column;
+}
+
+#guestbook-locked h2
+{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#guestbook-locked-header
+{
+	text-align: center;
+	display: table-row;
+}
+
+.guestbook-locked-spacer
+{
+	height: 20px;
+	display: table-row;
+}
+
+/*---------------------*/
+/* guestbook edit page */
+/*---------------------*/
+
+.guestbook-edit-info
+{
+	display: table;
+	margin: auto;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.guestbook-edit-info .info-item
+{
+	display: table-row;
+}
+
+.guestbook-edit-info .info-item div
+{
+	display: table-cell;
+	padding-right: 10px;
+	padding-left: 10px;
+}

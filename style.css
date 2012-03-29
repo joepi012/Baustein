@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	background-image:url(Bilder/headerRepeat.png);
+	background-repeat:repeat-x;
+	margin-bottom:20px;
+	height:38px;
+}
+
+#header logo1{
+	height:38px;
+	font-size:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#header logo2{
+	height:38px;
+	color:#03F;
+	font-size:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#header logo3{
+	height:38px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#header b{
+	float:right;
+	padding-top:18px;
+	padding-right:10px;
+}
+#content{
+	margin-left:15%;
+	margin-right:15%;
+	margin-bottom:20px;
+}
+
+#contentInformation{
+	width:40%;
+	height:400px;
+	float:right;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+}
+
+#contentNavigation{
+	width:40%;
+	height:400px;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	text-align:center;
+}
+
+#contentNavigationArtikel{
+	width:100%;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	text-align:center;
+}
+
+#contentNavigation h1{
+	text-align:center;
+}
+
+#contentInformation h1{
+	text-align:center;
+}
+
+.contentButton{
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	padding: 5px;
+	height:100px;
+	width:100px;
+	position:relative;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.contentButtonArtikel{
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	padding: 5px;
+	width:100px;
+	position:relative;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.table{
+	text-align:right;
+}
+
+#editorGesamt{
+	width:100%;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#editorTinyMCE{
+	margin-top:20px;
+}
+
+#ueberschrift{
+	width:90%;
+}
+
+#beschreibung{
+	width:90%;
+	height:50px;
+}
+
+#tabelle{
+	padding-left:2px;
+	padding-right:2px;
+	display:table;
+	width:100%;
+}
+
+#footer{
+	text-align:center;
+	float:none;
+	margin-top:100px;
+}
+#contentNavigationGaestebuch{
+	width:100%;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	text-align:center;
+}
+
+.contentButtonGaestebuch{
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	padding: 5px;
+	width:100px;
+	position:relative;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#gaestebuchGesamt{
+	width:100%;
+	height: 100%px;
+	background-color:#0033FF;
+	color:#FFF;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#gaestebuchLinks{
+	width:45%;
+	float: left;
+	background-color:#FFFFFF;
+	color:#000;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	text-align:center;
+}
+
+#gaestebuchRechts{
+	width:45%;
+	float: right;
+	background-color:#FFFFFF;
+	color:#000;
+	padding-bottom:5px;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari, Chrome */
+	border-radius:10px; /* CSS3 */
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+.funktionButtonGaestebuch{
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	width:30px;
+	height:30px;
+	position:relative;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.gaestebuchBeitrag{
+	width:90%;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:20px;
+}
+
+.gaestebuchAendernButton{
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+	width:200px;
+	height:30px;
+	position:relative;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}

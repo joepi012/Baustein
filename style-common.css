@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/* ---- HEADER ---- */
+
+#header
+{
+}
+
+/* TITLE BAR */
+
+.title-bar
+{
+	background-image: url(Bilder/headerRepeat.png);
+	background-repeat: repeat-x;
+	margin-bottom: 20px;
+	height: 38px;
+}
+
+.logo
+{
+	display: inline;
+	height: 38px;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.logo .logo1
+{
+	margin-right: -9px;
+}
+
+.logo .logo2
+{
+	color: #0033FF;
+}
+
+.logo .logo3
+{
+	font-size: 16px;
+}
+
+.title-bar .username
+{
+	display: inline;
+	float: right;
+	padding-top: 18px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navigation
+{
+	width: 90%;
+	background-color: #0033FF;
+	color: #FFFFFF;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.navigation a
+{
+	color: #FFFFFF;
+}
+
+/* ---- CONTENT ----- */
+
+#content
+{
+	width: 90%;
+	background-color: #0033FF;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* ---- ACTIONS ---- */
+
+.action-link-list
+{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.action-link-list a
+{
+	color: blue;
+}
+
+/* ---- PAGINATION ---- */
+
+.pagination
+{
+	text-align: center;
+}
+
+.pagination a
+{
+	color: #FFFFFF;
+}
+
+.pagination .pagination-page
+{
+	color: #FFFFFF;
+}
+
+/* ---- TABLE ---- */
+
+table
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+table thead,
+table tfoot
+{
+	background-color: #AAAAAA;
+}
+
+table tbody
+{
+}
+
+table tr
+{
+	border: 1px solid black;
+}
+
+table thead tr,
+table tfoot tr
+{
+}
+
+table tbody tr
+{
+}
+
+table td
+{
+	border: 1px solid black;
+}
+
+table th
+{
+	border: 1px solid black;
+}
+
+table .date-cell
+{
+	text-align: center;
+}
+
+/* ---- FORM ---- */
+
+form
+{
+	margin: auto;
+	display: table;
+}
+
+.form-input
+{
+	display: table-row;
+}
+
+.form-input div
+{
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.form-input div label
+{
+	color: #FFFFFF;
+	padding-right: 20px;
+}
+
+.form-input label:after
+{
+	content: ":";
+}
+
+.form-input div input,
+.form-input div textarea
+{
+}
+
+.form-end-button
+{
+	float: right;
+}
+
+/* ---- FOOTER ---- */
+
+#footer
+{
+	text-align: center;
+	float: none;
+	margin-top: 30px;
+}

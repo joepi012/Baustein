@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Baustein - Termine</title>
+		<link href="style-events.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- header: logo + logged in username + nav  -->
+		<header id="header">
+			<div class="title-bar">
+				<!-- logo -->
+				<div class="logo">
+					<span class="logo1">Bau</span>
+					<span class="logo2">Stein</span>
+					<span class="logo3">Version 3.0</span>
+				</div>
+				<!-- username -->
+				<div class="username">
+					angemeldet als: rtoijala
+				</div>
+			</div>
+			<!-- nav -->
+			<nav class="navigation">
+				<a href="index.html">Startmenü</a>
+				<a href="blaa">BLAA</a>
+				<a href="haha">HAHA</a>
+			</nav>
+		</header>
+		<!-- content -->
+		<div id="content">
+			<!-- new article link -->
+			<div class="action-link-list">
+				<a class="action-link" href="events_create.html">Termin eintragen</a>
+			</div>
+			<!-- list of existing events with action links -->
+			<div class="event-list">
+				<!-- pagination links -->
+				<div class="pagination">
+					<a href="events.html">««</a>
+					<a href="events.html?page=do-with-php">«</a>
+					<span class="pagination-page">1-20 von 238</span>
+					<a href="events.html?page=do-with-php">»</a>
+					<a href="events.html?page=do-with-php">»»</a>
+				</div>
+				<!-- the table with the data and action links -->
+				<table class="event-table">
+					<!-- the table header -->
+					<thead>
+						<tr>
+							<th>Beginn</th>
+							<th>Ende</th>
+							<th>Titel</th>
+							<th>Beschreibung</th>
+							<th>Operationen</th>
+						</tr>
+					</thead>
+					<!-- the table body with the actual data -->
+					<tbody>
+						<tr>
+							<td class="date-cell">12.34.1234 12:34</td>
+							<td class="date-cell">56.78.7890 56:78</td>
+							<td>Blaa</td>
+							<td>
+								saldkgjsdpadj p  sdgsadgasdioghjsdhgasd  adsgsadhg
+							</td>
+							<!-- acton links -->
+							<td class="action-link-list">
+								<a href="events_edit.html?id=do-with-php">Ändern</a>
+								<a href="events_delete.html?id=do-with-php">Entfernen</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="date-cell">12.34.1234 12:34</td>
+							<td class="date-cell">56.78.7890 56:78</td>
+							<td>Blaa</td>
+							<td>
+								saldkgjsdpadj p  sdgsadgasdioghjsdhgasd  adsgsadhga
+							</td>
+							<td class="action-link-list">
+								<a href="events_edit.html?id=do-with-php">Ändern</a>
+								<a href="events_delete.html?id=do-with-php">Entfernen</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="date-cell">12.34.1234 12:34</td>
+							<td class="date-cell">56.78.7890 56:78</td>
+							<td>Blaa</td>
+							<td>
+								saldkgjsdpadj p  sdgsadgasdioghjsdhgasd  adsgsadh
+							</td>
+							<td class="action-link-list">
+								<a href="events_edit.html?id=do-with-php">Ändern</a>
+								<a href="events_delete.html?id=do-with-php">Entfernen</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="date-cell">12.34.1234 12:34</td>
+							<td class="date-cell">56.78.7890 56:78</td>
+							<td>Blaa</td>
+							<td>
+								saldkgjsdpadj p  sdgsadgasdioghjsdhgasd  adsgsad
+							</td>
+							<td class="action-link-list">
+								<a href="events_edit.html?id=do-with-php">Ändern</a>
+								<a href="events_delete.html?id=do-with-php">Entfernen</a>
+							</td>
+						</tr>
+					</tbody>
+					<!-- the header again -->
+					<tfoot>
+						<tr>
+							<th>Beginn</th>
+							<th>Ende</th>
+							<th>Titel</th>
+							<th>Beschreibung</th>
+							<th>Operationen</th>
+						</tr>
+					</tfoot>
+				</table>
+				<!-- the pagination again -->
+				<div class="pagination">
+					<a href="events.html">««</a>
+					<a href="events.html?page=do-with-php">«</a>
+					<span class="pagination-page">1-20 von 238</span>
+					<a href="events.html?page=do-with-php">»</a>
+					<a href="events.html?page=do-with-php">»»</a>
+				</div>
+			</div>
+		</div>
+		<!-- footer: copyright info? -->
+		<footer id="footer">
+			BauStein AG 2012
+		</footer>
+	</body>
+</html>
