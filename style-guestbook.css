@@ -16,14 +16,10 @@
 {
 	width: 45%;
 	float: left;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 10px;
+	margin-left: 20px;
 	display: table-column;
 }
 
@@ -39,6 +35,11 @@
 	display: table-row;
 }
 
+.guestbook-unlocked-contribution .action-link-list
+{
+	margin-bottom: 5px;
+}
+
 .guestbook-unlocked-contribution-header
 {
 	width: 100%;
@@ -46,6 +47,7 @@
 	color: #000000;
 	text-align: center;
 	font-weight: bold;
+	margin-top: 5px;
 }
 
 .guestbook-unlocked-contribution-body
@@ -92,14 +94,10 @@
 {
 	width: 45%;
 	float: right;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 10px;
+	margin-right: 20px;
 	display: table-column;
 }
 
@@ -109,15 +107,15 @@
 	text-align: center;
 }
 
+#guestbook-locked table
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #guestbook-locked-header
 {
 	text-align: center;
-	display: table-row;
-}
-
-.guestbook-locked-spacer
-{
-	height: 20px;
 	display: table-row;
 }
 
