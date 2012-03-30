@@ -112,3 +112,25 @@
 	text-align: center;
 	display: table-row;
 }
+
+/*-------------------------*/
+/* guestbook versions page */
+/*-------------------------*/
+
+.guestbook-versions-info
+{
+	margin: auto;
+	display: table;
+}
+
+.guestbook-versions-info .info-item
+{
+	display: table-row;
+}
+
+.guestbook-versions-info .info-item div
+{
+	display: table-cell;
+	color: #FFFFFF;
+	padding-right: 20px;
+}
