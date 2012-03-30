@@ -179,6 +179,22 @@ form
 	display: table;
 }
 
+.form-info
+{
+	display: table-row;
+	color: #FFFFFF;
+}
+
+.form-info div
+{
+	display: table-cell;
+}
+
+.form-info a
+{
+	color: #FFFFFF;
+}
+
 .form-input
 {
 	display: table-row;

@@ -2,7 +2,7 @@
 <html >
 	<head>
 		<meta charset="utf-8" />
-		<title>Baustein - Gästebuch</title>
+		<title>Baustein - Gästebuch - Bearbeiten</title>
 		<link href="style-common.css" rel="stylesheet" />
 		<link href="style-guestbook.css" rel="stylesheet" />
 	</head>
@@ -19,33 +19,33 @@
 			</div>
 			<!-- navigation -->
 			<nav class="navigation">
-				<h1>Gästebuchbeitrag ändern</h1>
-				<br />
+				<h1>Gästebuch - Bearbeiten</h1>
 				<a href="index.html">Startseite</a>
 				<a href="guestbook-main.html">Gästebuch</a>
 			</nav>
 		</header>
 		<div id="content">
-			<div class="guestbook-edit-info">
-				<div class="info-item">
+			<form name="guestbook-edit" action="#" method="POST">
+				<div class="form-info">
 					<div>Autor:</div>
 					<div>AAAAAAAAAAAAA</div>
 				</div>
-				<div class="info-item">
+				<div class="form-info">
 					<div>E-Mail:</div>
 					<div>fakeemail@fake.email</div>
 				</div>
-				<div class="info-item">
+				<div class="form-info">
 					<div>Geschrieben am:</div>
 					<div>31.1.2012</div>
 				</div>
-				<div class="info-item">
+				<div class="form-info">
 					<div>
-						<a href="">Alle Versionen</a>
+						Alle Versionen:
+					</div>
+					<div>
+						<a href="">5 Versionen gefunden</a>
 					</div>
 				</div>
-			</div>
-			<form name="guestbook-edit" action="#" method="POST">
 				<div class="form-input">
 					<div>
 						<label for="contribution">Gästebuchbeitrag</label>
