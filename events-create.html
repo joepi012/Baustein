@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Baustein - Termine - Erstellen</title>
+		<link href="style-common.css" type="text/css" rel="stylesheet"/>
+		<link href="style-events.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header id="header">
+			<div class="title-bar">
+				<div class="logo">
+					<span class="logo1">Bau</span>
+					<span class="logo2">Stein</span>
+					<span class="logo3">Version 3.0</span>
+				</div>
+				<div class="username">
+					angemeldet als: rtoijala
+				</div>
+			</div>
+			<nav class="navigation">
+				<h1>Termine - Erstellen</h1>
+				<a href="index.html">Startmenü</a>
+				<a href="events-main.html">Terminübersicht</a>
+				<a href="blaa">BLAA</a>
+				<a href="haha">HAHA</a>
+			</nav>
+		</header>
+		<div id="content">
+			<form class="event-form" action="events-create.html" method="post">
+				<div class="form-input">
+					<div>
+						<label for="input-title">Titel</label>
+					</div>
+					<div>
+						<input type="text" name="title" id="input-title" required="required" maxlength="255" autofocus="autofocus"/>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<label for="input-description">Beschreibung</label>
+					</div>
+					<div>
+						<textarea name="description" id="input-description" cols="80" rows="10" required="required"></textarea>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<label for="input-begin">Beginn</label>
+					</div>
+					<div>
+						<input type="datetime-local" name="begin" id="input-begin" required="required"/>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<label for="input-end">Ende</label>
+					</div>
+					<div>
+						<input type="datetime-local" name="end" id="input-end" required="required"/>
+					</div>
+				</div>
+				<div class="form-input">
+					<div>
+						<input class="form-end-button" type="reset" name="reset" id="input-reset" value="Zurücksetzen"/>
+					</div>
+					<div>
+						<input class="form-end-button" type="submit" name="submit" id="input-submit" value="Erstellen"/>
+					</div>
+				</div>
+			</form>
+		</div>
+		<footer id="footer">
+			BauStein AG 2012
+		</footer>
+	</body>
+</html>
