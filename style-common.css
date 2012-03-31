@@ -42,7 +42,6 @@
 
 .title-bar .username
 {
-	display: inline;
 	float: right;
 	padding-top: 18px;
 	padding-right: 10px;
@@ -56,10 +55,7 @@
 	width: 90%;
 	background-color: #0033FF;
 	color: #FFFFFF;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	margin-left: 5%;
 	margin-right: 5%;
 	font-size: 16px;
@@ -79,10 +75,7 @@
 {
 	width: 90%;
 	background-color: #0033FF;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -222,6 +215,5 @@ form
 #footer
 {
 	text-align: center;
-	float: none;
 	margin-top: 30px;
 }
