@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+/* ---- EVENT MISC ---- */
+
+.event-create-link
+{
+	text-align: left;
+	background-color: #0033FF;
+	padding-top: 5px;
+	padding-left: 20px
+}
+
+.event-create-link a
+{
+	color: #FFFFFF;
+}
+
 /* ---- EVENT TABLE ---- */
 
 .event-list
