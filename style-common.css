@@ -159,11 +159,15 @@ table tbody tr
 table td
 {
 	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 table th
 {
 	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 table .date-cell
