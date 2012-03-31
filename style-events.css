@@ -10,7 +10,7 @@
 
 .title-bar
 {
-	background-image: url(Bilder/headerRepeat.png);
+	background-image: url(images/titlebar-background.png);
 	background-repeat: repeat-x;
 	margin-bottom: 20px;
 	height: 38px;
