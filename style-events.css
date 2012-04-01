@@ -1,150 +1,18 @@
 @charset "UTF-8";
 
-/* ---- HEADER ---- */
+/* ---- EVENT MISC ---- */
 
-#header
+.event-create-link
 {
+	text-align: left;
+	background-color: #0033FF;
+	padding-top: 5px;
+	padding-left: 20px
 }
 
-/* TITLE BAR */
-
-.title-bar
+.event-create-link a
 {
-	background-image: url(Bilder/headerRepeat.png);
-	background-repeat: repeat-x;
-	margin-bottom: 20px;
-	height: 38px;
-}
-
-.logo
-{
-	display: inline;
-	height: 38px;
-	font-size: 36px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-}
-
-.logo .logo1
-{
-	margin-right: -9px;
-}
-
-.logo .logo2
-{
-	color: #0033FF;
-}
-
-.logo .logo3
-{
-	font-size: 16px;
-}
-
-.title-bar .username
-{
-	display: inline;
-	float: right;
-	padding-top: 18px;
-	padding-right: 10px;
-}
-
-/* ---- NAVIGATION ---- */
-
-.navigation
-{
-}
-
-.navigation a
-{
-}
-
-/* ---- CONTENT ----- */
-
-#content
-{
-}
-
-/* ---- ACTIONS ---- */
-
-.action-link-list
-{
-}
-
-.action-link-list a
-{
-}
-
-/* ---- PAGINATION ---- */
-
-.pagination
-{
-	text-align: center;
-}
-
-.pagination a
-{
-}
-
-.pagination .pagination-page
-{
-}
-
-/* ---- TABLE ---- */
-
-table
-{
-	border-collapse: collapse;
-	border: 1px solid black;
-
-}
-
-table thead,
-table tfoot
-{
-}
-
-table tbody
-{
-
-}
-
-table tr
-{
-	border: 1px solid black;
-}
-
-table thead tr,
-table tfoot tr
-{
-}
-
-table tbody tr
-{
-}
-
-table td
-{
-	border: 1px solid black;
-}
-
-table th
-{
-	border: 1px solid black;
-}
-
-table .date-cell
-{
-	text-align: center;
-}
-
-/* ---- FOOTER ---- */
-
-#footer
-{
-/* someone fill this */
-	text-align: center;
-	float: none;
-	margin-top: 30px;
+	color: #FFFFFF;
 }
 
 /* ---- EVENT TABLE ---- */
@@ -155,9 +23,6 @@ table .date-cell
 
 .event-table
 {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
 .event-table thead,
@@ -199,37 +64,29 @@ table .date-cell
 
 .event-form
 {
-	display: table;
 }
 
-.event-form-input
+.event-form .form-input
 {
-	display: table-row;
-
 }
 
-.event-form-input label
+.event-form .form-input div
 {
-	display: table-cell;
-	vertical-align: top;
-	padding-right: 20px;
-
 }
 
-.event-form-input label:after
+.event-form .form-input div label
 {
-	content: ":";
-
 }
 
-.event-form-input input,
-.event-form-input textarea
+.event-form .form-input div label:after
 {
-	display: table-cell;
-
 }
 
-.event-form-end-button
+.event-form .form-input div input,
+.event-form .form-input div textarea
 {
+}
 
+.event-form .form-end-button
+{
 }

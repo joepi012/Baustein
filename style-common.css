@@ -6,11 +6,11 @@
 {
 }
 
-/* TITLE BAR */
+/* ---- TITLE BAR ---- */
 
 .title-bar
 {
-	background-image: url(Bilder/headerRepeat.png);
+	background-image: url(images/titlebar-background.png);
 	background-repeat: repeat-x;
 	margin-bottom: 20px;
 	height: 38px;
@@ -42,7 +42,6 @@
 
 .title-bar .username
 {
-	display: inline;
 	float: right;
 	padding-top: 18px;
 	padding-right: 10px;
@@ -56,10 +55,7 @@
 	width: 90%;
 	background-color: #0033FF;
 	color: #FFFFFF;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	margin-left: 5%;
 	margin-right: 5%;
 	font-size: 16px;
@@ -79,10 +75,7 @@
 {
 	width: 90%;
 	background-color: #0033FF;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	border-radius: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -159,11 +152,15 @@ table tbody tr
 table td
 {
 	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 table th
 {
 	border: 1px solid black;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 table .date-cell
@@ -177,6 +174,22 @@ form
 {
 	margin: auto;
 	display: table;
+}
+
+.form-info
+{
+	display: table-row;
+	color: #FFFFFF;
+}
+
+.form-info div
+{
+	display: table-cell;
+}
+
+.form-info a
+{
+	color: #FFFFFF;
 }
 
 .form-input
@@ -195,9 +208,10 @@ form
 {
 	color: #FFFFFF;
 	padding-right: 20px;
+	float: right;
 }
 
-.form-input label:after
+.form-input div label:after
 {
 	content: ":";
 }
@@ -217,6 +231,5 @@ form
 #footer
 {
 	text-align: center;
-	float: none;
 	margin-top: 30px;
 }

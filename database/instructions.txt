@@ -1,0 +1,28 @@
+normal tables = articles/articles_comments/categories/events/galleries/guestbook/teachers/users (=not link tables)
+
+create in normal table:
+	1. insert values into main_table (id = NULL (auto-increment), editor = creator, edited = created)
+update in normal table:
+	1. copy to versions_table (no changes), set version
+	2. update main_table
+	   - change editor, edited
+	   - make wanted changes
+delete in normal table:
+	1. copy to versions_table (no changes), set version
+	2. set deleted, deletor in main_table
+
+link tables are owned by the table that is mentioned first
+
+create in link_XXX_YYY:
+	1. copy from XXX to XXX_versions (no changes), set version
+	2. set editor, edited in XXX
+	3. create in link_XXX_YYY, created_version = new XXX version
+delete in link_XXX_YYY:
+	1. copy from XXX to XXX_versions (no changes), set version
+	2. set editor, edited in XXX
+	3. set deleted_version in link_XXX_YYY to new XXX version
+
+revert to old version (only for normal tables):
+	1. copy current version to versions,  set version
+	2. copy old version to main table, set editor, edited
+	3. owned link tables => recreate versions that were current in old version (details complicated, coming later)
