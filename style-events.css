@@ -4,10 +4,10 @@
 
 .event-create-link
 {
-	text-align: left;
-	background-color: #0033FF;
 	padding-top: 5px;
 	padding-left: 20px
+	text-align: left;
+	background-color: #0033FF;
 }
 
 .event-create-link a
