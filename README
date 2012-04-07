@@ -1,17 +1,26 @@
 Git Benutzung:
-1. installieren, konfigurieren (RTFM github page)
-2. fork ainoedhofer/Baustein
-3. clone <user>/Baustein (zu Hause)
-4. ändern von Dateien
-5. github pull
-6. merge/commit
-7. pull request (RTFM github page)
-8. warten auf eine Antwort
+  beim ersten Mal:
+    1. installieren, konfigurieren (RTFM github page)
+    2. fork ainoedhofer/Baustein
+    3. clone <user>/Baustein (zu Hause)
+    4. ainoedhofer/Baustein als remote hinzufügen (z.B. als "upstream")
+  immer vor dem Arbeiten:
+    1. fetch, merge von upstream
+  beim Arbeiten:
+    1. Dateien ändern
+    2. commits machen: ein commit/Anderung, sinnvolle commit messages
+  nach dem Arbeiten:
+    1. fetch, merge von upstream
+    2. commit
+    3. push ins eigene Repository
+    4. pull request (RTFM github page)
+    5. warten auf eine Antwort
 
 Programmierung:
-1. style.css nicht benutzen!
-2. style-common.css benutzen, wenn etwas für alle Module gilt
-3. style-<Modul>.css (z.B. style-events.css) schreiben
-4. andere Dateien: <Modul>-main.html, <Modul>-blaaa.html, ...
-5. Beispiele siehe Gästebuch/Termine
-6. UTF-8, Tabs (4), keine Spaces
+  1. alles auf Englisch machen
+  2. style.css nicht benutzen!
+  3. style-common.css benutzen, wenn etwas für alle Module gilt
+  4. style-<Modul>.css (z.B. style-events.css) schreiben
+  5. andere Dateien: <Modul>-main.html, <Modul>-<Funktion1>.html, ...
+  6. Beispiele siehe Gästebuch/Termine
+  7. UTF-8, Tabs (4), keine Spaces

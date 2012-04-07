@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 /*---------------------*/
 /* guestbook main page */
@@ -6,33 +6,31 @@
 
 .guestbook-content
 {
-	width: 100%;
 	display: table;
+	width: 100%;
 }
 
 /* ---- unlocked contributions ---- */
 
 #guestbook-unlocked
 {
+	display: table-column;
 	width: 45%;
+	margin: 10px 0 10px 20px;
 	float: left;
 	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	display: table-column;
 }
 
 #guestbook-unlocked h2
 {
-	color: #FFFFFF;
 	text-align: center;
+	color: #FFFFFF;
 }
 
 .guestbook-unlocked-contribution
 {
-	width: 100%;
 	display: table-row;
+	width: 100%;
 }
 
 .guestbook-unlocked-contribution .action-link-list
@@ -43,29 +41,29 @@
 .guestbook-unlocked-contribution-header
 {
 	width: 100%;
+	margin-top: 5px;
+	text-align: center;
 	background-color: #AAAAAA;
 	color: #000000;
-	text-align: center;
 	font-weight: bold;
-	margin-top: 5px;
 }
 
 .guestbook-unlocked-contribution-body
 {
+	display: table;
 	width: 100%;
+	min-height: 50px;
+	border-bottom: 1px solid black;
 	background-color: #FFFFFF;
 	font-weight: normal;
-	display: table;
-	border-bottom: 1px solid black;
-	min-height: 50px;
 }
 
 .guestbook-unlocked-contribution-body-actions
 {
-	width: 7em;
 	display: table-cell;
-	background-color: #AAAAAA;
+	width: 7em;
 	text-align: center;
+	background-color: #AAAAAA;
 }
 
 .guestbook-unlocked-contribution-body-actions a
@@ -75,42 +73,33 @@
 
 .guestbook-unlocked-contribution-body-text
 {
-	background-color: #FFFFFF;
 	display: table-cell;
 	padding-left: 10px;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
+	background-color: #FFFFFF;
 }
 
 /* ---- locked contributions ---- */
 
 #guestbook-locked
 {
+	display: table-column;
 	width: 45%;
+	margin: 10px 20px 10px 0;
 	float: right;
 	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 20px;
-	display: table-column;
 }
 
 #guestbook-locked h2
 {
-	color: #FFFFFF;
 	text-align: center;
+	color: #FFFFFF;
 }
 
 #guestbook-locked table
 {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#guestbook-locked-header
-{
-	text-align: center;
-	display: table-row;
+	margin: 10px 0;
 }
 
 /*-------------------------*/
@@ -119,8 +108,8 @@
 
 .guestbook-versions-info
 {
-	margin: auto;
 	display: table;
+	margin: auto;
 }
 
 .guestbook-versions-info .info-item
@@ -131,6 +120,6 @@
 .guestbook-versions-info .info-item div
 {
 	display: table-cell;
-	color: #FFFFFF;
 	padding-right: 20px;
+	color: #FFFFFF;
 }
